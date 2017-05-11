@@ -1,0 +1,26 @@
+body {
+  background: blue;
+  color: white;
+}
+@keyframes tossing {
+  0% {
+    transform: rotate(-4deg); 
+  }
+  50% {
+    transform: rotate(4deg);
+  }
+  100% {
+    transform: rotate(-4deg); 
+  }           
+}
+.ship {
+  animation-name: tossing;
+  animation-duration: 2.5s; 
+  animation-iteration-count: infinite;
+}
+
+.pic {
+  animation-name: tossing;
+  animation-duration: 2.5s; 
+  animation-iteration-count: infinite;
+}
